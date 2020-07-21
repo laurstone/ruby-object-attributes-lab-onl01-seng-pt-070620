@@ -12,15 +12,15 @@ class Person
    @name
  end
  
- def job=(person_job)
-   @job = person_job
- end
- 
- def the_job(job_name)
-   @the_job = job_name
- end 
- 
- def job_name
-   @job_name
- end 
+  def the_job(job_name)
+    @the_job = job_name
+  end 
+  
+  def name
+    @name
+  end 
+  
+  def name=(doggy_name) 
+    @name = doggy_name
+  end 
 end 
