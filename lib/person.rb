@@ -6,8 +6,9 @@ class Person
  
  def name(nickname)
    @name = nickname
-  end 
+ end 
  
  def nickname
-   
+   @nickname
+ end 
 end 
