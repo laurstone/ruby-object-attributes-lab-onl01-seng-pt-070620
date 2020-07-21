@@ -8,16 +8,16 @@ class Person
     @name
   end 
   
-  def name=(doggy_name) 
-    @name = doggy_name
+  def name=(job_title) 
+    @name = job_title
   end 
   
-  def dog_breed(breed)
-    @breed = breed 
+  def job_type(company)
+    @job_type = company
   end 
   
-  def breed 
-    @breed 
+  def company 
+    @company
   end 
   
 end 
