@@ -16,11 +16,11 @@ class Person
     @the_job = job_name
   end 
   
-  def name
-    @name
+  def job_name
+    @job_name
   end 
   
-  def name=(doggy_name) 
-    @name = doggy_name
+  def job=(their_job) 
+    @job = their_job
   end 
 end 
