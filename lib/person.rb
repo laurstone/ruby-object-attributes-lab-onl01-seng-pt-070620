@@ -12,15 +12,15 @@ class Person
    @name
  end
  
-  def the_job(job_name)
-    @the_job = job_name
+  def job_title(job)
+    @job_title = job
   end 
   
-  def job_name
-    @job_name
+  def job
+    @job
   end 
   
-  def job=(their_job) 
-    @job = their_job
+  def job_name=(job_place) 
+    @job_name = job_place
   end 
 end 
