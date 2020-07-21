@@ -4,11 +4,11 @@ class Person
   @name = person_name
  end
  
- def person_name(nickname)
-   @person_name = nickname
+ def their_name(name)
+   @their_name = name
  end 
  
- def nickname
-   @nickname
+ def name
+   @name
  end 
 end 
