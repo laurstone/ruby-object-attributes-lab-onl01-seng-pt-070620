@@ -4,8 +4,8 @@ class Person
   @name = person_name
  end
  
- def name(nickname)
-   @name = nickname
+ def person_name(nickname)
+   @person_name = nickname
  end 
  
  def nickname
