@@ -8,4 +8,6 @@ class Person
    @name = nickname
   end 
  
+ def nickname
+   
 end 
