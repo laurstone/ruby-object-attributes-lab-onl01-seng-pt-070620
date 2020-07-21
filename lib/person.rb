@@ -15,4 +15,12 @@ class Person
  def job=(job_name)
    @job = job_name
  end 
+ 
+ def job_title(job)
+   @job_title = job 
+ end 
+ 
+ def job 
+   @job 
+ end 
 end 
